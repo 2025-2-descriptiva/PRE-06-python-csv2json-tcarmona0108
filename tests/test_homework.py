@@ -7,7 +7,7 @@ import os
 def test_01():
     """Test app"""
 
-    assert os.path.exists("files/drivers.csv")
+    assert os.path.exists("files/drivers.json")
 
     # read the json file "drivers.json"
     with open("files/drivers.json", "r", encoding="utf-8") as f:
